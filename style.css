@@ -1,0 +1,171 @@
+/* Global */
+body {
+  background: #d9f3da;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container img {
+  height: 120px;
+  width: 120px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header / Navbar */
+.header {
+  background: white;
+  color: #fff;
+  padding: 5px 0;
+  height: 80px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container h1 {
+  color: #222;
+  margin-right: 300px;
+  font-size: 30px;
+}
+
+.nav a {
+  color: #222;
+  margin-left: 20px;
+  font-weight: bold;
+  padding: 30px;
+  font-size: large;
+}
+
+/* Hero Section */
+.hero {
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  
+}
+.container1 video {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  object-fit:fill;
+  padding-left: 150px;   
+  margin: 10px;
+}
+
+.features {
+  text-align: center;
+  padding-top: 100px;
+}
+.features h1{
+    text-align: center;
+}
+
+.container2 {
+  display: flex;
+  gap: 50px;
+  padding-left: 300px;
+}
+.feature img {
+    border-image: 0;
+  height: 400px;
+  width: 300px;
+}
+
+
+
+
+/* form secton */
+form {
+  width: 90%; 
+}
+
+.form1 {
+
+padding-top: 100px;
+  text-align: center;
+  color: #4caf50;
+  margin: 30px;
+}
+
+.form2 {
+    
+  display: flex;
+  gap: 30px;
+}
+
+.form3 {
+  flex: 1;
+  padding: 30px;
+  border-radius: 50px;
+}
+.form3.left {
+  background: #4caf50;
+  color: white;
+}
+
+.form3.left h2 {
+  display: inline-block;
+}
+
+.form3.right {
+  background: #e9fbe9;
+}
+.form3.right input,
+.form3.right textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form3.right textarea {
+  height: 120px;
+}
+
+.form3.right button {
+  border-radius: 80px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+
+
+
+/* footer */
+ .footer {
+   margin-top: 50px;
+  background: #0f1534;
+  color: white;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+
+/* table */
+.id1{
+    background-color: #4caf50;
+    
+}
+.id2{
+    padding-left: 500px;
+
+}
+
+
+.image1{
+    height: auto;
+    width: 100px;
+}
